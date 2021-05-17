@@ -29,7 +29,6 @@ const deptFirstLog = (root) => {
 	const stack = [ root ];
 	while (stack.length > 0) {
 		const curr = stack.pop();
-            console.log(curr.val);
 		if (curr.left !== null) {
 			stack.push(curr.left);
 		}
